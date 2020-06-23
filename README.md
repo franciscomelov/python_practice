@@ -1,4 +1,4 @@
 # hackerrank_python
-challenges from
+challenges from  
 https://www.hackerrank.com/  
 https://www.codewars.com/
