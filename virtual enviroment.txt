@@ -1,0 +1,6 @@
+crear     python -m venv env
+activa/entrar    source env/Scripts/activate
+instal liberia       pip install <nombre de libreria>
+ver que hay instalado       pip freeze
+salir virtual      deactivate
+
