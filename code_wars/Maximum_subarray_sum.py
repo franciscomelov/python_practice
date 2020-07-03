@@ -1,5 +1,5 @@
 def max_sequence(arr):
-
+                      #Creates an array with all positives integers if the array have zero + integers returns zero
     if len(arr) == 0 or len([x for x in arr if x >0]) == 0:
         return 0
 
@@ -9,12 +9,8 @@ def max_sequence(arr):
         roll = num +1
         while roll != len(arr)+1:
             compare =sum(arr[num:roll])
-
             if compare >biggest:
                 biggest = compare   
-                print("biggest ",compare,arr[num:roll])
-            print(compare,arr[num:roll])
-
             roll +=1
 
     return biggest
