@@ -1,5 +1,5 @@
 #https://www.codewars.com/kata/55f4a44eb72a0fa91600001e/train/python
-def create_message(s):
+""" def create_message(s):
     dicti ={}
     count = 0
     def other(a):
@@ -12,9 +12,17 @@ def create_message(s):
 
     return other
 
-print(create_message(1)(2)(3))
+print(create_message(1)(2)(3)) """
     
 
+def funcwrapper(y):
+    def addone(x):
+        return x + y + 1
+    return addone
+
+result = funcwrapper(3)
+
+print (result(2))
 
 # https://oswalt.dev/2015/05/double-parentheses-in-python/
 """ 
