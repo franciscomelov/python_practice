@@ -1,6 +1,7 @@
 crear     python -m venv env
 activa/entrar    source env/Scripts/activate
 instal liberia       pip install <nombre de libreria>
+instalar librerias desde requirements.txt      pip install -r requirements.txt  
 ver que hay instalado       pip freeze
 salir virtual      deactivate
 
