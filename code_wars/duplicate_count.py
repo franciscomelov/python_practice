@@ -11,7 +11,7 @@ def duplicate_count(text):
     return len([text[letter] for letter in range(len(text)) if text.lower().count(text[letter].lower()) > 1 and text[letter].lower() not in text[:letter].lower()])
 
 
-print(duplicate_count("Indivisibilities"))
+print(duplicate_count("aabbc"))
 
 """ 
 Count the number of Duplicates
