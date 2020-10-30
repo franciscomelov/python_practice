@@ -6,3 +6,5 @@ def loop(n):
 if __name__ == '__main__':
     n = int(input("ELije un numero:"))
     loop(n)
+
+#https://www.hackerrank.com/challenges/python-loops/problem
