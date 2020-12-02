@@ -2,7 +2,7 @@
 # https://platzi.com/comunidad/platzicodingchallenge-dia-5-necesitamos-vocales-4/
 
 def desvocalizador(text):
-    vocales = ["a","e","i","o","u","A","E","I","O","U","á","é","í","ó","ú"] #diccionario de vocales
+    vocales = "aeiouAEIOUáéíóúÁÉÍÓÚüÜ" #diccionario de vocales
     
     new_text =""
     for l in text:
