@@ -1,0 +1,4 @@
+id,title,amount,created_at,tags
+1,Jamon,12.2,12-nov,"['comida', 'carne']"
+2,papas,50,12-nov,"['snack', 'Tuberculo']"
+3,agua,122,12-nov,"['comida', 'liquidos']"
