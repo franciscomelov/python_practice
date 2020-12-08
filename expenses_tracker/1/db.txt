@@ -3,3 +3,4 @@ id,title,amount,created_at,tags
 2,colegiatura escuela,1840.0,2020-12-03 22:57:59.658486,"['escuela', 'educacion']"
 3,netflix,130.0,2020-12-03 22:58:18.634508,"['peliculas', 'series']"
 4,colegiatura escuela,1840.0,2020-12-03 22:58:39.170449,"['escuela', 'educacion']"
+6,papas,15.0,2020-12-07 16:52:14.241811,['chatarra']

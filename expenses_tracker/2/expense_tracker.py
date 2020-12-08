@@ -1,3 +1,5 @@
+#https://twitter.com/jangiacomelli/status/1331170948150558723
+#https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping
 """ 
 Build expense tracker CLI app.
 
@@ -58,7 +60,6 @@ class Expense_tracker:
         for expense in self.expenses:
             if title == expense.title:
                 self._print(expense)
-            
 
     def edit(self,id):#itera sobre cada expense i compara parametro id con self.expenses.id
         for i, expense in enumerate(self.expenses):#enumerate regresa un entero desde 0 hasta n  sirve para sacar el index de expense que coinsidio
