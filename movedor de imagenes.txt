@@ -1,0 +1,12 @@
+Se escoje una carpeta de donde toma ra las images
+
+se escojen 2 o mas carpetas de destino
+
+
+En una nueva Pantalla :
+	visor de imagenes - debajo tendra el nombre de la imagen (talvez opcion de cambiar nombre )
+	debajo cada carpeta de destino sera un boton
+Al aparecen una imagen si damos click en el botos de la derecha 
+movera la imagen a la carpeta destino que representa el boton
+	Pasara a la siguiente imagen
+Asi hasta salir del programa o hasta que se terminen las imagenes
