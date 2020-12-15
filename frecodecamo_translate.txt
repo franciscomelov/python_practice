@@ -1,0 +1,23 @@
+trello.com
+Enlaces a traducirse
+	articulos referenciados
+
+Articulos
+	articulos para traducir
+
+En traduccion
+	una vez en traduccion dar a join y aparecera tu foto y tu perfil
+
+En revision
+	una vez terminado moverlo a esa parte 
+
+
+Coununicacion 
+	https://chat.freecodecamp.org/home
+	via chat general
+	rafael@freecodecamp.org
+	en la tarjeta de trelo
+
+
+https://www.freecodecamp.org/espanol/news/guia-de-estilo-publicacion-freecodecamp/
+

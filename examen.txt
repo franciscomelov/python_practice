@@ -1,0 +1,54 @@
+algoritmos = aplicacion pasos logicos secuencialesy metodicamente aplicados para dar solucion a un problema
+
+Cadena: secuencia de caracteres que se utiliza para guardar texto y mensajes
+
+tipos de datos float double representan numeros reales con fraccion decimal
+
+clasificacin de los algoritmos: secuenciales, condicionales y repetitivos
+
+diagramas de flujo: es la representacion grafica de las operaciones que realiza un algoritmo
+
+lenguaje simbolico: es una forma de representacion de un algoritmo que ademas permite una introduccion a una programacion estructural
+
+divide y venceras consiste: en descomponer un problema en subproblemas
+
+subproblema es una fase que esta dada por una parte del problema el cual requere una definicion clara y precisa
+
+El analisis del probema es la fase de la solucion de un problema donde hay un proceso creativo y donde el conocimiento la agilidad y la experiencia tiene un papel importante
+
+La fase del diseño del algoritmo es donde se indicanlas instrucciones a ejecutar por la maquina
+
+codificacion en la operacion de escribir la solucion del problema en una serie de instrucciones detallada 
+
+documentacion en la guia o comunicacion escrita en sus varias formas
+
+los errores logicos son aquellos que no pueden ser detectados por un computadoes
+
+una variable es un campo de memoria que almacena informacion la cual puede cambiar en cualquier momento
+
+los operadores son signos que expresan relaciones entre variables y constantes de los cuales se obtiene un resultado
+
+la prueba de escritorio consiste en generar una tabla  con tantas columnas como varibles y seguir instrucciones del algoritmo colocando valores correspondiente 
+
+un contador es una estructura que se utiliza para llevar el conteo consecutivo de elementos
+
+una condicion es una situacion que puede ser calificada como verdadera o falsa
+
+los if son estructuras selectivas 
+
+() raiz potencia multiplicacion division residuo suma resta
+
+los bucles con estructuras iterativas
+
+las 4 partes de la estructura de repeticion son inicializacion condicion bloque de sentencias y actualizacion
+
+for se utiliza cuando se sabe cuantas veces se va a repetir la sentencia
+
+while primero pregunta y despues ejecuta
+
+do while almenos se ejecuta un ves
+
+java el lenguaje orientado a objetos diseñado para ser multiplataforma es decir  que puede emplearse el mismo programa en diversos sistemas operativos 
+emplearse el mismo programa en diversos sistemas operativos
+
+break es una sentencia que rompe la ejecucion de un ciclo
