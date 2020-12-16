@@ -35,9 +35,12 @@ class Card:
         self.fuerza =fuerza
         self.defensa=defensa
 
-mago= Card("Mago", 5, 2 )
+
+
+#    Card(Nombre, fueza, defenza)
+mago= Card("Mago", 4, 2 )
 sacerdotiza=Card("Sacerdotiza", 1, 5)
 emperatriz=Card("Emperatriz",3, 2 )
 emperador=Card("Emperador", 2, 3)
-enamorado=Card("Enamorado", 4, 2)
+enamorado=Card("Enamorado", 4, 1)
 print(mago)
