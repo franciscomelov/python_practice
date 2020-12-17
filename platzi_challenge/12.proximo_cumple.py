@@ -14,5 +14,5 @@ def birthday(your_bday):
 
 
 if __name__ == "__main__":
-    your_bday = input("Ingresa tu fecha de cumpleaños: mes-dia: ")
+    your_bday = "1-1"
     birthday(your_bday)

@@ -9,3 +9,5 @@ https://github.com/karan/Projects
 
 https://www.reddit.com/r/learnprogramming/comments/2a9ygh/1000_beginner_programming_projects_xpost/
 https://hackernoon.com/a-realistic-roadmap-to-becoming-a-python-developer-ab5872959509
+
+https://www.pythonkitchen.com/legally-free-python-books-list/
