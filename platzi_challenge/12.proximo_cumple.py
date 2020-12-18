@@ -1,10 +1,9 @@
 from datetime import date
-from datetime import datetime
 
 
 def birthday(your_bday):
     your_bday = your_bday.split("-") #separa your_bday en array [mes, dia]
-    year = datetime.now().year #guarda en year el año actual
+    year = date.now().year #guarda en year el año actual
     your_bday = date(year, int(your_bday[0]), int(your_bday[1])) # date(year, month, day) convierte num to real date
 
     today = date.today()  # guarda en today la fecha actual
