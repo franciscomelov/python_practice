@@ -2,7 +2,7 @@ from datetime import date
 
 
 def birthday(your_bday):
-    your_bday = your_bday.split("-") #separa your_bday en array [mes, dia]
+    your_bday = your_bday.split("-") #separa your_bday en array [año, mes, dia]
     your_bday = date(int(your_bday[0]), int(your_bday[1]), int(your_bday[2])) # date(year, month, day) convierte num to real date
     today = date.today()  # guarda en today la fecha actual
     days = (your_bday - today).days  # resta a la fecha de tu cumpleños la fecha actual,  #days regresa fecha y hora con .days solo regresa dias
