@@ -1,8 +1,13 @@
-def loop(n):
-    for i in range(n):
-        print(i**2)
-
+def printLinkedList(llist):
+    print(llist.le)
 
 if __name__ == '__main__':
-    n = int(input("ELije un numero:"))
-    loop(n)
+    llist_count = int(input())
+
+    llist = SinglyLinkedList()
+
+    for _ in range(llist_count):
+        llist_item = int(input())
+        llist.insert_node(llist_item)
+
+    printLinkedList(llist.head)
