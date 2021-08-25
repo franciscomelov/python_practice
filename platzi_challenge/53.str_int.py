@@ -1,16 +1,11 @@
-from typing import Literal
 
-
-def to_int(num):
-    # num = eval(num) # Built in fuction
-    # print(num, type(num))
-
+def to_num(num):
     try:
-        num = int(num)
+        num = eval(num) # Built in fuction
+        print(num, type(num))
     except:
-        num = float(num)
-    print(num, type(num))
+        print("Error",num, "no es un numero")
     
     (num)
-num = "14.195"
-to_int(num)
+num = "w"
+to_num(num)
