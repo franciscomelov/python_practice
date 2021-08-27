@@ -1,4 +1,7 @@
 from os import system
+import keyboard
+
+
 def clear():
     clear = lambda: system('clear')
     return clear()
@@ -35,7 +38,7 @@ def game():
         elif move == "s": x += 1 #Abajo
         elif move == "d": y += 1 #Derecha
 
-        print()
+
 
 
 
