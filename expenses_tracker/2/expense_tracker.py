@@ -94,6 +94,7 @@ def run():
     
     expense_tracker = Expense_tracker() #Crea objeto inical
     # Primer instruncion correra siempre al inicio y leera db.txt y lo guarda en mi class expense_tracker
+
     with open('db.txt', 'r', encoding="utf8") as f: # alinicar programa lee db.txt y excribe en mi objeto
         reader = csv.reader(f)
         for idx, row in enumerate(reader): #itera sbre cada linea de db.txt
