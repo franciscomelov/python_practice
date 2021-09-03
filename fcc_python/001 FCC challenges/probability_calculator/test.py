@@ -17,8 +17,14 @@ def my_function(**kargs):
         print(contents[idx], idx)
 
 #my_function(blue=3,red=2,green=6, pink=1)
-a=[["red", "blue",], "red", "green", "red"]
+a=["red", "blue", "red", "green" ]
 b=["red", "blue"]
 
-print(b in a)
 
+
+dict_a ={}
+print([])
+for ball in a:
+    dict_a[ball] = dict_a.get(ball, 0) +1
+
+print(dict_a)
