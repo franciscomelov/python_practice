@@ -1,27 +1,24 @@
 import copy
 import random
-# Consider using the modules imported above.
+
 
 class Hat:
     def __init__(self, **kargs) -> None:
-        self.balls = kargs
-        self.contents = [name for name, number in kargs.items() for number in range(number)]
-    
-    def show_balls(self):
-        print(self.contents)
-    
+        self.balls = [name for name, number in kargs.items() for number in range(number)]
+        self.contents = copy.copy(self.balls)
+
+
     def draw(self, n_balls):
-        urn = copy.copy(self.contents)
-        # print("urn: ", urn)
+        if n_balls > len(self.balls):
+            return self.contents
+
+        self.contents = copy.copy(self.balls)
         pulled_balls=[]
-        while len(urn)>=n_balls:
-            pulling=[]
-            for _ in range(n_balls):
-                idx = random.randint(0,len(urn)-1)
-                pulling.append(urn.pop(idx))
-            pulled_balls.append(pulling)
-            # print("urn: ", urn)
-            # print("pulled:",pulled_balls)
+
+        for _ in range(n_balls):
+            idx = random.randint(0,len(self.contents)-1)
+            pulled_balls.append(self.contents.pop(idx))
+
         return pulled_balls
 
 def list_to_dict(dictionary):
@@ -31,27 +28,34 @@ def list_to_dict(dictionary):
     return result
 
 def test_match(expected_balls,pulled_balls):
-    print(pulled_balls)
-    dict_pulled =[]
-    for turn in pulled_balls: 
-        dict_pulled.append(list_to_dict(turn))
-    
-    print(expected_balls)
-    print(dict_pulled)
+    matches =0
+    dict_pulled =list_to_dict(pulled_balls)
+
+    loop=True
+    while loop:
         
+        for color  in expected_balls:
+            if dict_pulled.get(color, False):#check if ball is in hat
+                if expected_balls[color]>dict_pulled[color]:#Check number of balls in hat and take if posible
+                    loop =False
+                dict_pulled[color] -= expected_balls[color]
+            else:
+                loop =False
+
+        if not loop: break
+        matches+=1
+    return matches
+
 
 
 def experiment(hat, expected_balls, num_balls_drawn, num_experiments):
     match_balls=0
     for _ in range(num_experiments):
         pulled_balls = hat.draw(num_balls_drawn)
-        test_match(expected_balls, pulled_balls)
 
-hat = Hat(black=6, red=4, green=3)
+        match_balls +=test_match(expected_balls, pulled_balls)
 
-#hat.draw(3)
+    return match_balls/num_experiments
 
-probability = experiment(hat=hat, 
-                  expected_balls={"red":2,"green":1},
-                  num_balls_drawn=5,
-                  num_experiments=3)
+
+
