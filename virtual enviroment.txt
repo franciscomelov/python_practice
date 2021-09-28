@@ -1,4 +1,4 @@
-crear     python -m venv env
+crear     python -m venv venv
 activa/entrar    source venv/Scripts/activate
 	alias avenv
 instal liberia       pip install <nombre de libreria>
