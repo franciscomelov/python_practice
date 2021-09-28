@@ -1,7 +1,17 @@
 crear     python -m venv env
-activa/entrar    source env/Scripts/activate
+activa/entrar    source venv/Scripts/activate
+	alias avenv
 instal liberia       pip install <nombre de libreria>
 instalar librerias desde requirements.txt      pip install -r requirements.txt  
 ver que hay instalado       pip freeze
 salir virtual      deactivate
 
+____________
+crear alias
+Abra el archivo .bashrcque se encuentra en la ubicaciónC:\Users\USERNAME\.bashrc
+
+Si el archivo .bashrcno existe, créelo siguiendo los pasos a continuación:
+
+Abra el símbolo del sistema y vaya a C:\Users\USERNAME\.
+Escriba el comando notepad ~/.bashrc
+Genera el .bashrcarchivo.
