@@ -10,6 +10,7 @@ def welcome():
         system("clear")
         print(saludo[:i+1])
         time.sleep(.1)
+    time.sleep(.4)
 
 
 def doll():
@@ -102,21 +103,25 @@ def run():
         system("clear")
         print(HANGMANPICS[counter])
         print(" ".join(hidden_word))
+
+        print("word:",word)
+        print("hidden_word:",hidden_word)
         gess_letter = input("Adivina la la palabra: ")
 
         if check_errors(gess_letter): counter-=1
-        if len(gess_letter)==0: counter+=1
 
 
 
-        if gess_letter in word and gess_letter not in hidden_word:
+        
+        if word.__contains__(gess_letter) and  hidden_word.__contains__(gess_letter):
             for i, hidden  in enumerate(word):
                 if gess_letter == hidden:
                     hidden_word[i] = gess_letter
         else:
             counter+=1
- 
-
+            
+        
+        
         if "_" not in hidden_word:
             print("G A N A S T E")
             print(f'Tenminaste en {counter} turnos')
@@ -130,7 +135,7 @@ def run():
 
 
 if __name__ == "__main__":
-    welcome()
+    #welcome()
     run()
 
 
