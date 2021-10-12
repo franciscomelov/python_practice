@@ -1,5 +1,5 @@
 from os import system
-import keyboard
+#import keyboard
 
 
 def clear():
