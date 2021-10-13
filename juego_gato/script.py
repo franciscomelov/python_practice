@@ -48,9 +48,11 @@ def new_board():
              ["4", "5", "6",],
              ["7", "8", "9",] ]
 
+
+
 def main():
     player_1, player_2 = players()
-    score = {"score_1":0, "score_2": 0}
+
 
     playing = True
     board = new_board()
