@@ -5,3 +5,4 @@ Wave a flag : picoCTF{b1scu1ts_4nd_gr4vy_616f7182}
 information : picoCTF{the_m3tadata_1s_modified}
 Nice netcat... : picoCTF{g00d_k1tty!_n1c3_k1tty!_f2d7cafa}
 Transformation = picoCTF{16_bits_inst34d_of_8_75d4898b}
+Stonks : picoCTF{I_l05t_4ll_my_m0n3y_1cf201a0}
