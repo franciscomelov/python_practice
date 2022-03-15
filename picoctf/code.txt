@@ -26,3 +26,5 @@ Glory of the Garden: picoCTF{more_than_m33ts_the_3y33dd2eEF5}
 Warmed Up  : picoCTF{61}
 
 2Warm : picoCTF{101010}
+
+strings it: picoCTF{5tRIng5_1T_7f766a23
