@@ -1,37 +1,18 @@
-from ctypes import LittleEndianStructure
+from tabnanny import check
 
 
-s = "abb" # 2
-s = "pwwkew" # 3
-#s = "sdfvvvfsvdsvscsfvvsdcgbvlk,fnhdlccnhhklvgflbmccos" # 12 , iter:49
-#s = "sdfvvvfsvdsvscsfvvsdcgbvlk,afnhdlccnhhklvgflbmccosñdsjdkdnsyuwpkendyapdmabsdxytavdakendpskfbfyavadexrwzxtcuvbbnni" # 13 , iter:49
-counter = 0
+s = "()[]{}"
+s = "(]"
+s = "()"
 
-s = tuple(s)
-sub = ""
-biggest = 0
-size = len(s)
+values = ["()", "[]", "{}"]
 
+# counter = 0
+# for pair in values:
+#     if pair[0] in s:
+#         check = s.count(pair[0]) == s.count(pair[1])
 
-for start in range(size):
-    print("_____", biggest, len(s[start:]))
-    if biggest >= len(s[start:]):
-        print("############")
-        break
-    end = biggest + start + 1
-    while end <= size+1:
-        print("Biggest:", biggest, "Start:", start, "end", end)
-        counter += 1
-        sub = tuple(s[start:end])
-        print(sub)
+check = [s.count(pair[0]) == s.count(pair[1]) for pair in values]
 
-        if len(set(sub)) < len(sub):
-            break
-
-        if len(sub) > biggest:
-            biggest = len(sub)
-        end +=1
-
-print(counter, "-")
-print(biggest)
+print(all(check))
 

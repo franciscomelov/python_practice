@@ -6,3 +6,14 @@ information : picoCTF{the_m3tadata_1s_modified}
 Nice netcat... : picoCTF{g00d_k1tty!_n1c3_k1tty!_f2d7cafa}
 Transformation = picoCTF{16_bits_inst34d_of_8_75d4898b}
 Stonks : picoCTF{I_l05t_4ll_my_m0n3y_1cf201a0}
+Static ain't always noise : picoCTF{d15a5m_t34s3r_f5aeda17}
+Tab, Tab, Attack : picoCTF{l3v3l_up!_t4k3_4_r35t!_6f332f10}
+Mind your Ps and Qs : picoCTF{sma11_N_n0_g0od_73918962}
+keygenme-py: picoCTF{1n_7h3_|<3y_of_e584b363}
+Matryoshka doll: picoCTF{4cf7ac000c3fb0fa96fb92722ffb2a32}
+crackme-py : picoCTF{1|\/|_4_p34|\|ut_502b984b}
+
+Magikarp Ground Mission : picoCTF{xxsh_0ut_0f_\/\/4t3r_3ca613a1}
+
+
+The Numbers:PICOCTF{THENUMBERSMASON}
