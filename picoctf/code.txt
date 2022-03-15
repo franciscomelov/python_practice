@@ -17,3 +17,12 @@ Magikarp Ground Mission : picoCTF{xxsh_0ut_0f_\/\/4t3r_3ca613a1}
 
 
 The Numbers:PICOCTF{THENUMBERSMASON}
+vault-door-training:w4rm1ng_Up_w1tH_jAv4_3808d338b46
+
+Insp3ct0r : picoCTF{tru3_d3t3ct1ve_0r_ju5t_lucky?2e7b23e3}
+
+Glory of the Garden: picoCTF{more_than_m33ts_the_3y33dd2eEF5}
+
+Warmed Up  : picoCTF{61}
+
+2Warm : picoCTF{101010}
