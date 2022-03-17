@@ -1,0 +1,139 @@
+if (nextLine.charAt(33) != '}') 
+            
+            return;
+        }
+        if (nextLine.charAt(32) != '7') 
+            
+            return;
+        }
+        if (nextLine.charAt(31) != '0') 
+            
+            return;
+        }
+        if (nextLine.charAt(30) != '6') 
+            
+            return;
+        }
+        if (nextLine.charAt(29) != '5') 
+            
+            return;
+        }
+        if (nextLine.charAt(28) != '7') 
+            
+            return;
+        }
+        if (nextLine.charAt(27) != '4') 
+            
+            return;
+        }
+        if (nextLine.charAt(26) != '2') 
+            
+            return;
+        }
+        if (nextLine.charAt(25) != 'c') 
+            
+            return;
+        }
+        if (nextLine.charAt(24) != '_') 
+            
+            return;
+        }
+        if (nextLine.charAt(23) != 'd') 
+            
+            return;
+        }
+        if (nextLine.charAt(22) != '3') 
+            
+            return;
+        }
+        if (nextLine.charAt(21) != 'r') 
+            
+            return;
+        }
+        if (nextLine.charAt(20) != '1') 
+            
+            return;
+        }
+        if (nextLine.charAt(19) != 'u') 
+            
+            return;
+        }
+        if (nextLine.charAt(18) != 'q') 
+            
+            return;
+        }
+        if (nextLine.charAt(17) != '3') 
+            
+            return;
+        }
+        if (nextLine.charAt(16) != 'r') 
+            
+            return;
+        }
+        if (nextLine.charAt(15) != '_') 
+            
+            return;
+        }
+        if (nextLine.charAt(14) != 'g') 
+            
+            return;
+        }
+        if (nextLine.charAt(13) != 'n') 
+            
+            return;
+        }
+        if (nextLine.charAt(12) != '1') 
+            
+            return;
+        }
+        if (nextLine.charAt(11) != 'l') 
+            
+            return;
+        }
+        if (nextLine.charAt(10) != '0') 
+            
+            return;
+        }
+        if (nextLine.charAt(9) != '0') 
+            
+            return;
+        }
+        if (nextLine.charAt(8) != '7') 
+            
+            return;
+        }
+        if (nextLine.charAt(7) != '') 
+            
+            return;
+        }
+        if (nextLine.charAt(6) != 'F') 
+            
+            return;
+        }
+        if (nextLine.charAt(5) != 'T') 
+            
+            return;
+        }
+        if (nextLine.charAt(4) != 'C') 
+            
+            return;
+        }
+        if (nextLine.charAt(3) != 'o') 
+            
+            return;
+        }
+        if (nextLine.charAt(2) != 'c') 
+            
+            return;
+        }
+        if (nextLine.charAt(1) != 'i') 
+            
+            return;
+        }
+        if (nextLine.charAt(0) != 'p') 
+            
+            return;
+        }
+        System.out.println("Valid key");
+    }
+}

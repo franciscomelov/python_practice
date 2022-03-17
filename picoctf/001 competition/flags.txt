@@ -1,0 +1,38 @@
+file-run1 : picoCTF{U51N6_Y0Ur_F1r57_F113_102c30db}
+
+file-run2 : picoCTF{F1r57_4rgum3n7_4653b5f6}
+
+basic-file-exploit: picoCTF{M4K3_5UR3_70_CH3CK_Y0UR_1NPU75_149F090A}
+
+basic-mod1:picoCTF{R26UND_N_R26UND_C26A3432313333}
+
+Includes : picoCTF{1nclu51v17y_1of2_f7w_2of2_4d305f36}
+
+Inspect HTML : picoCTF{1n5p3t0r_0f_h7ml_b6602e8e}
+
+
+Local Authority : picoCTF{j5_15_7r4n5p4r3n7_8086bcb1}
+
+Lookey here : picoCTF{gr3p_15_@w3s0m3_4554f5f5}
+
+Packets Primer : picoCTF{p4ck37_5h4rk_d0565941}
+
+patchme.py : picoCTF{p47ch1ng_l1f3_h4ck_c3daefb9}
+
+picoCTF{WH3R3_D035_7H3_F3NC3_8361N_4ND_3ND_EB4C7D74}
+
+rail-fence : picoCTF{WH3R3_D035_7H3_F3NC3_8361N_4ND_3ND_EB4C7D74}
+
+Safe Opener : picoCTF{pl3as3_l3t_m3_1nt0_th3_saf3}
+
+substitution0: picoCTF{5ub5717u710n_3v0lu710n_7b755b1a}
+
+transposition-trial:picoCTF{7R4N5P051N6_15_3XP3N51V3_5C82A0E0}
+
+unpackme.py : picoCTF{175_chr157m45_188ab8c9}
+
+bloat.py : picoCTF{d30bfu5c4710n_f7w_2769cf94}
+
+
+Fresh Java: 
+picoCTF{700l1ng_r3qu1r3d_c2475607}
