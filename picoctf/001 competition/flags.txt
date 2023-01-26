@@ -36,3 +36,27 @@ bloat.py : picoCTF{d30bfu5c4710n_f7w_2769cf94}
 
 Fresh Java: 
 picoCTF{700l1ng_r3qu1r3d_c2475607}
+
+Power Cookie : picoCTF{gr4d3_A_c00k13_80bad8fa}
+
+basic-mod1 : picoCTF{R0UND_N_R0UND_C0A86577}
+
+basic-mod2 : picoCFT{1nv3r53ly_h4rd_261cb530}
+
+credstuff
+ : picoCTF{C7r1F_54V35_71M3}
+
+CVE-XXXX-XXXX  : picoCTF{CVE-2021-34527}
+
+
+Enhance! : picoCTF{3nh4nc3d_6783cc46}
+
+morse-code : picoCTF{WH47_H47H_90D_W20U9H7}
+
+substitution1 : picoCTF{FR3QU3NCY_4774CK5_4R3_C001_E57444AC}
+
+substitution2: picoCTF{N6R4M_4N41Y515_15_73D10U5_6CDAEA76}
+
+Vigenere : picoCTF{D0NT_US3_V1G3N3R3_C1PH3R_y23c13p5}
+
+Redaction gone wrong : picoCTF{C4n_Y0u_S33_m3_fully}
