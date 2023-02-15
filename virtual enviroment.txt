@@ -7,6 +7,7 @@ ver que hay instalado       pip freeze
 salir virtual      deactivate
 
 ____________
+
 crear alias
 Abra el archivo .bashrc que se encuentra en la ubicación C:\Users\USERNAME\.bashrc
 
